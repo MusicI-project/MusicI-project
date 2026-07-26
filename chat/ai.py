@@ -335,4 +335,4 @@ if prompt := st.chat_input(f"{current_ai['name']} にメッセージを入力し
             pass
         else:
             if utau_voice:
-            st.audio(utau_voice, format="audio/wav", autoplay=True)  # 🔊 爆速自動再生！
+                st.audio(utau_voice, format="audio/wav", autoplay=True)  # 🔊 爆速自動再生！
