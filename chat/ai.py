@@ -331,7 +331,7 @@ if prompt := st.chat_input(f"{current_ai['name']} にメッセージを入力し
         # （ここは半角スペース8マスで揃えるのが大正解なのだ！）
         try: 
             utau_voice = generate_utau_speech(res, current_ai['voice_folder'])
-        except:
+        except Exception:
             pass
         else:
             if utau_voice:
